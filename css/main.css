@@ -137,7 +137,7 @@ body {
 }
 
 .animate-room {
-  animation: animateFill 4s ease-in;
+  animation: animateFill 1s ease-in-out;
 }
 
 @keyframes animateFill {
