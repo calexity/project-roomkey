@@ -116,19 +116,25 @@ body {
   font-weight: bold;
 }
 
-.white {
-  background-color: #fff;
+.contracted {
+  background-color: #46BDC6;
   padding: 0 3px;
 }
 
-.green {
-  background-color: #90ee90;
+.occupied {
+  background-color: #e06156;
   padding: 0 3px;
 }
 
-.yellow {
-  background-color: #ffff66;
-  padding: 0 3px;
+.chart {
+  display: flex;
+}
+
+.chart iframe {
+  width: 600px;
+  height: 371px;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .hotel-master {
