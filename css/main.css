@@ -280,6 +280,10 @@ footer {
   h3 {
     font-size: 1rem;
   }
+  iframe {
+    width: 300px;
+    height: auto;
+  }
 }
 
 @media print,
