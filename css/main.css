@@ -99,32 +99,31 @@ textarea {
    ========================================================================== */
 body {
   font-family: 'Oxygen', serif;
+  font-size:62.5%;
   color: #242424;
   margin: 0;
 }
 
 h1 {
-  font-size: 48px;
-  line-height: 54px;
+  font-size: 2.5rem;
   padding: 0;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
 p {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1rem;
 }
 
 .paragraph-small {
-  font-size: 14px;
+  font-size: .8rem;
 }
 
 a {
@@ -268,8 +267,19 @@ footer {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 500px) {
+  .header {
+    width: auto;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
 }
 
 @media print,
