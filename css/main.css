@@ -98,14 +98,47 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-  font-family: sans-serif;
+  font-family: 'Oxygen', serif;
+  color: #242424;
+  margin: 0;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 54px;
+  padding: 0;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.paragraph-small {
+  font-size: 14px;
+}
+
+a {
+  color: #242424;
 }
 
 .header {
   text-align: center;
+  padding: 20px 40px;
+  margin: 0 auto;
+  width: 50%;
 }
 
-.kicker {
+.updated {
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
@@ -126,30 +159,23 @@ body {
   padding: 0 3px;
 }
 
+.los-angeles {
+  padding: 24px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
 .chart {
   display: flex;
 }
 
 .chart iframe {
-  width: 600px;
-  height: 371px;
   margin: 0 auto;
   justify-content: center;
 }
 
-.hotel-master {
-  width: 70%;
-  margin: 0 auto;
-}
-
-.animate-room {
-  animation: animateFill 1s ease-in-out;
-}
-
-@keyframes animateFill {
-  from {
-    fill: #fff;
-  }
+footer {
+  text-align: center;
 }
 
 
